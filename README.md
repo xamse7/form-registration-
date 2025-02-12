@@ -82,24 +82,66 @@
         <div class="form-group">
             <label for="studentID">Student ID:</label>
             <input type="text" id="studentID" name="studentID" required>
-        </div>
-
+        </div>    <div class="form-group">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+</head>
+<body>
+    <h1>Welcome to My Webpage</h1>
+    <p>This is a simple introduction to HTML.</p>
+    <a href="https://www.w3schools.com/html/">Learn More about HTML</a>
+</body>
+</html>
+    </div>
+    <div class="form-group">
+        <label for="telephone">Telephone:</label>
+        <input type="tel" id="telephone" name="telephone" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="shift">Shift:</label>
+        <input type="text" id="shift" name="shift" required>
+    </div>
+    <div class="form-group">
+        <label for="faculty">Faculty:</label>
+        <input type="text" id="faculty" name="faculty" required>
+    </div>
+    <div class="form-group">
+        <label for="photo">Student Photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*" required>
+    </div>
+    <button type="submit">Register</button>
+</form>
         <div class="form-group">
             <label for="fullName">Full Name:</label>
             <input type="text" id="fullName" name="fullName" required>
         </div>
-
         <div class="form-group">
             <label for="telephone">Telephone:</label>
             <input type="tel" id="telephone" name="telephone" required>
         </div>
-
         <div class="form-group">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
         </div>
-
-        <div class="form-group">
+      <div class="form-group">
             <label for="gender">Gender:</label>
             <select id="gender" name="gender" required>
                 <option value="">Select</option>
@@ -107,22 +149,18 @@
                 <option value="Female">Female</option>
             </select>
         </div>
-
         <div class="form-group">
             <label for="shift">Shift:</label>
             <input type="text" id="shift" name="shift" required>
         </div>
-
         <div class="form-group">
             <label for="faculty">Faculty:</label>
             <input type="text" id="faculty" name="faculty" required>
         </div>
-
         <div class="form-group">
             <label for="photo">Student Photo:</label>
             <input type="file" id="photo" name="photo" accept="image/*" required>
         </div>
-
         <button type="submit">Register</button>
     </form>
 </div>
